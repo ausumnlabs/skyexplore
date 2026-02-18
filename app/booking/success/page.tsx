@@ -6,6 +6,7 @@ import { CheckCircle, Download, Home, Printer } from "lucide-react";
 import Link from "next/link";
 import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
+// @ts-ignore
 import QRCode from "qrcode";
 
 export default function SuccessPage() {
